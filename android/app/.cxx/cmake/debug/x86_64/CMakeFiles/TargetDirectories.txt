@@ -1,0 +1,3 @@
+C:/Users/Axmadjon/StudioProjects/native_try/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/weather.dir
+C:/Users/Axmadjon/StudioProjects/native_try/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Axmadjon/StudioProjects/native_try/android/app/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir

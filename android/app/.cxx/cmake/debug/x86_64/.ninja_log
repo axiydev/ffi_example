@@ -1,0 +1,5 @@
+# ninja log v5
+0	42	651489604	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/native_try/src/weather.c.o	42d646b1cba79ae7
+42	92	651489604	C:/Users/Axmadjon/StudioProjects/native_try/build/app/intermediates/cmake/debug/obj/x86_64/libweather.so	f5a38e37601f2ed4
+1	65	651489694	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/native_try/src/weather.c.o	42d646b1cba79ae7
+65	171	651489695	C:/Users/Axmadjon/StudioProjects/native_try/build/app/intermediates/cmake/debug/obj/x86_64/libweather.so	f5a38e37601f2ed4
