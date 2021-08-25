@@ -16,3 +16,7 @@ char* get_type_wether(){
      strcpy(forecast_m, forecast);
      return forecast_m;
 }
+
+int sum(int a,int b){
+   return a+b;
+}

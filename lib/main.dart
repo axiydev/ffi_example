@@ -48,34 +48,66 @@ class _HomePageState extends State<HomePage> {
                   scale: 1.5,
                   child: TextButton(
                       onPressed: () {},
-                      child: Text(_ffiBridge.getTemperature().toString())),
+                      child: Text(
+                        _ffiBridge.getTemperature().toString(),
+                        style: TextStyle(fontWeight: FontWeight.w700,fontSize: 20),
+                      )),
                 ),
                 Transform.scale(
                   scale: 1.5,
                   child: TextButton(
                       onPressed: () {},
-                      child: Text(_ffiBridge.getTypeWeather().toString())),
+                      child: Text(
+                        _ffiBridge.getTypeWeather().toString(),
+                        style: TextStyle(fontWeight: FontWeight.w700,fontSize: 20),
+                      )),
                 ),
                 Builder(
                   builder: (context) => TextButton(
                       onPressed: () {
                         ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
-                          action: SnackBarAction(
-                            label:'undo',
-                            onPressed: (){
-
-                            },
-                          ),
+                            action: SnackBarAction(
+                              label: 'undo',
+                              onPressed: () {},
+                            ),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.vertical(
                                   top: Radius.circular(15)),
                             ),
                             backgroundColor: Colors.black,
-                            content:
-                                Text(_ffiBridge.getTemperature().toString())));
+                            content: Text(
+                              _ffiBridge.getTemperature().toString(),
+                              style: TextStyle(fontWeight: FontWeight.w700,fontSize: 20),
+                            )));
                       },
-                      child: Text('get it')),
-                )
+                      child: Text(
+                        'get it',
+                        style: TextStyle(fontWeight: FontWeight.w700,fontSize: 25),
+                      )),
+                ),
+                Builder(
+                  builder: (context) => TextButton(
+                      onPressed: () {
+                        ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
+                            action: SnackBarAction(
+                              label: 'undo',
+                              onPressed: () {},
+                            ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.vertical(
+                                  top: Radius.circular(15)),
+                            ),
+                            backgroundColor: Colors.black,
+                            content: Text(
+                              _ffiBridge.getAddValue(12, 23).toString(),
+                              style: TextStyle(fontWeight: FontWeight.w700,fontSize: 20),
+                            )));
+                      },
+                      child: Text(
+                        '12+23',
+                        style: TextStyle(fontWeight: FontWeight.w700,fontSize: 25),
+                      )),
+                ),
               ],
             )),
       ),
