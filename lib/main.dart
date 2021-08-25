@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
@@ -43,12 +44,38 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                TextButton(
-                    onPressed: () {},
-                    child: Text(_ffiBridge.getTemperature().toString())),
-                TextButton(
-                    onPressed: () {},
-                    child: Text(_ffiBridge.getTypeWeather().toString())),
+                Transform.scale(
+                  scale: 1.5,
+                  child: TextButton(
+                      onPressed: () {},
+                      child: Text(_ffiBridge.getTemperature().toString())),
+                ),
+                Transform.scale(
+                  scale: 1.5,
+                  child: TextButton(
+                      onPressed: () {},
+                      child: Text(_ffiBridge.getTypeWeather().toString())),
+                ),
+                Builder(
+                  builder: (context) => TextButton(
+                      onPressed: () {
+                        ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
+                          action: SnackBarAction(
+                            label:'undo',
+                            onPressed: (){
+
+                            },
+                          ),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.vertical(
+                                  top: Radius.circular(15)),
+                            ),
+                            backgroundColor: Colors.black,
+                            content:
+                                Text(_ffiBridge.getTemperature().toString())));
+                      },
+                      child: Text('get it')),
+                )
               ],
             )),
       ),
