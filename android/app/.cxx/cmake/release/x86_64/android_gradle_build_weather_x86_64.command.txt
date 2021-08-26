@@ -1,0 +1,7 @@
+Executable : C:\Users\Axmadjon\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\Axmadjon\StudioProjects\native_try\android\app\.cxx\cmake\release\x86_64
+weather
+jvmArgs : 
+
