@@ -117,8 +117,12 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                 Transform.scale(
                   scale: 1.5,
                   child: TextButton(
-                      onPressed: () => AdditionalDialogs.showDioForFFi(context,
-                          _ffiBridge.getThreeDaysForecast(true).toStringTemp().toString()),
+                      onPressed: () => AdditionalDialogs.showDioForFFi(
+                          context,
+                          _ffiBridge
+                              .getThreeDaysForecast(true)
+                              .toStringTemp()
+                              .toString()),
                       child: Text(
                         'without selcius',
                         style: TextStyle(
@@ -128,8 +132,12 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                 Transform.scale(
                   scale: 1.5,
                   child: TextButton(
-                      onPressed: () => AdditionalDialogs.showDioForFFi(context,
-                          _ffiBridge.getThreeDaysForecast(false).toStringTemp().toString()),
+                      onPressed: () => AdditionalDialogs.showDioForFFi(
+                          context,
+                          _ffiBridge
+                              .getThreeDaysForecast(false)
+                              .toStringTemp()
+                              .toString()),
                       child: Text(
                         'with selcius',
                         style: TextStyle(
@@ -159,7 +167,8 @@ mixin AdditionalDialogs {
                   child: Center(
                     child: Text(
                       info!.toString(),
-                      style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+                      style:
+                          TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
                     ),
                   ),
                 )
