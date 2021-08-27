@@ -1,2 +1,0 @@
-ninja: Entering directory `C:\Users\Axmadjon\StudioProjects\native_try\android\app\.cxx\Debug\5t5e2r6h\arm64-v8a'
-[1/1] Linking C shared library C:\Users\Axmadjon\StudioProjects\native_try\build\app\intermediates\cxx\Debug\5t5e2r6h\obj\arm64-v8a\libweather.so

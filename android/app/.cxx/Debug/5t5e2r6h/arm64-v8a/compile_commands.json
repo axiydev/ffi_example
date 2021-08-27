@@ -1,7 +1,0 @@
-[
-{
-  "directory": "C:/Users/Axmadjon/StudioProjects/native_try/android/app/.cxx/Debug/5t5e2r6h/arm64-v8a",
-  "command": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Axmadjon/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Axmadjon/AppData/Local/Android/Sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dweather_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\weather.dir\\C_\\Users\\Axmadjon\\StudioProjects\\native_try\\src\\weather.c.o   -c C:\\Users\\Axmadjon\\StudioProjects\\native_try\\src\\weather.c",
-  "file": "C:\\Users\\Axmadjon\\StudioProjects\\native_try\\src\\weather.c"
-}
-]

@@ -41,20 +41,21 @@ class FFIBridge {
             // 4
             TemperatureFunctionDart>('get_temp');
 
+    // TODO: Assign value to _getForecast
+
+    // TODO: Assign value to _getThreeDayForecast here
+
     _getTypeWeather = dl.lookupFunction<TypeOfDayWeather, TypeOfDayWeatherDart>(
         'get_type_wether');
 
-    _getAddingVal =
-        dl.lookupFunction<TypedefForAddingC, TypedefForAddingDart>('sum');
+    _getAddingVal=dl.lookupFunction<TypedefForAddingC,TypedefForAddingDart>('sum');
 
-    _getCppStruct =
-        dl.lookupFunction<TempFor, TempForOtherDart>("get_three_days_forecast");
+    _getCppStruct=dl.lookupFunction<TempFor,TempForOtherDart>("get_three_days_forecast");
   } // 5
 
-  ThreeDaysForecast getThreeDaysForecast(bool useSelcius) {
-    return _getCppStruct(useSelcius ? 1 : 0);
+  ThreeDaysForecast getThreeDaysForecast(bool useSelcius){
+    return _getCppStruct(useSelcius?1:0);
   }
-
   double getTemperature() => _getTemperature();
 
   String getTypeWeather() {
@@ -64,8 +65,8 @@ class FFIBridge {
     return forecast;
   }
 
-  int getAddValue(int a, int b) {
-    final val = _getAddingVal;
-    return val(a, b);
+  int getAddValue(int a,int b){
+    final val=_getAddingVal;
+    return val(a,b);
   }
 }
