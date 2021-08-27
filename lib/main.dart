@@ -118,7 +118,7 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                   scale: 1.5,
                   child: TextButton(
                       onPressed: () => AdditionalDialogs.showDioForFFi(context,
-                          _ffiBridge.getThreeDaysForecast(true).toString()),
+                          _ffiBridge.getThreeDaysForecast(true).toStringTemp()),
                       child: Text(
                         'without selcius',
                         style: TextStyle(
@@ -128,8 +128,11 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                 Transform.scale(
                   scale: 1.5,
                   child: TextButton(
-                      onPressed: () => AdditionalDialogs.showDioForFFi(context,
-                          _ffiBridge.getThreeDaysForecast(false).toString()),
+                      onPressed: () => AdditionalDialogs.showDioForFFi(
+                          context,
+                          _ffiBridge
+                              .getThreeDaysForecast(false)
+                              .toStringTemp()),
                       child: Text(
                         'with selcius',
                         style: TextStyle(
@@ -144,7 +147,7 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
 }
 
 mixin AdditionalDialogs {
-  static void showDioForFFi(BuildContext context, info) {
+  static void showDioForFFi(BuildContext context, String? info) {
     final Size size = MediaQuery.of(context).size;
     showDialog<SimpleDialog>(
         context: context,
@@ -156,9 +159,12 @@ mixin AdditionalDialogs {
               children: [
                 SizedBox(
                   height: size.width * 0.5,
-                  child: Text(
-                    info!.toString(),
-                    style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+                  child: Center(
+                    child: Text(
+                      info!.toString(),
+                      style:
+                          TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+                    ),
                   ),
                 )
               ],
