@@ -1,6 +1,7 @@
 import 'dart:ffi';
 import 'dart:io';
 import 'package:ffi/ffi.dart';
+import 'package:native_try/struct_ffi_for_temp.dart';
 
 typedef TemperatureFunction = Double Function();
 typedef TemperatureFunctionDart = double Function();
@@ -19,6 +20,7 @@ class FFIBridge {
   late TemperatureFunctionDart _getTemperature;
   late TypeOfDayWeatherDart _getTypeWeather;
   late TypedefForAddingDart _getAddingVal;
+  late TempForOtherDart _getCppStruct;
 
   // TODO: Add _getForecast declaration here
   // TODO: Add _getThreeDayForecast here
@@ -47,8 +49,13 @@ class FFIBridge {
         'get_type_wether');
 
     _getAddingVal=dl.lookupFunction<TypedefForAddingC,TypedefForAddingDart>('sum');
+
+    _getCppStruct=dl.lookupFunction<TempFor,TempForOtherDart>("get_three_days_forecast");
   } // 5
 
+  ThreeDaysForecast getThreeDaysForecast(bool useSelcius){
+    return _getCppStruct(useSelcius?1:0);
+  }
   double getTemperature() => _getTemperature();
 
   String getTypeWeather() {

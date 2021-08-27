@@ -31,7 +31,7 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage> with AdditionalDialogs {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
@@ -50,7 +50,8 @@ class _HomePageState extends State<HomePage> {
                       onPressed: () {},
                       child: Text(
                         _ffiBridge.getTemperature().toString(),
-                        style: TextStyle(fontWeight: FontWeight.w700,fontSize: 20),
+                        style: TextStyle(
+                            fontWeight: FontWeight.w700, fontSize: 20),
                       )),
                 ),
                 Transform.scale(
@@ -59,7 +60,8 @@ class _HomePageState extends State<HomePage> {
                       onPressed: () {},
                       child: Text(
                         _ffiBridge.getTypeWeather().toString(),
-                        style: TextStyle(fontWeight: FontWeight.w700,fontSize: 20),
+                        style: TextStyle(
+                            fontWeight: FontWeight.w700, fontSize: 20),
                       )),
                 ),
                 Builder(
@@ -77,12 +79,14 @@ class _HomePageState extends State<HomePage> {
                             backgroundColor: Colors.black,
                             content: Text(
                               _ffiBridge.getTemperature().toString(),
-                              style: TextStyle(fontWeight: FontWeight.w700,fontSize: 20),
+                              style: TextStyle(
+                                  fontWeight: FontWeight.w700, fontSize: 20),
                             )));
                       },
                       child: Text(
                         'get it',
-                        style: TextStyle(fontWeight: FontWeight.w700,fontSize: 25),
+                        style: TextStyle(
+                            fontWeight: FontWeight.w700, fontSize: 25),
                       )),
                 ),
                 Builder(
@@ -100,17 +104,66 @@ class _HomePageState extends State<HomePage> {
                             backgroundColor: Colors.black,
                             content: Text(
                               _ffiBridge.getAddValue(12, 23).toString(),
-                              style: TextStyle(fontWeight: FontWeight.w700,fontSize: 20),
+                              style: TextStyle(
+                                  fontWeight: FontWeight.w700, fontSize: 20),
                             )));
                       },
                       child: Text(
                         '12+23',
-                        style: TextStyle(fontWeight: FontWeight.w700,fontSize: 25),
+                        style: TextStyle(
+                            fontWeight: FontWeight.w700, fontSize: 25),
+                      )),
+                ),
+                Transform.scale(
+                  scale: 1.5,
+                  child: TextButton(
+                      onPressed: () => AdditionalDialogs.showDioForFFi(context,
+                          _ffiBridge.getThreeDaysForecast(true).toStringTemp().toString()),
+                      child: Text(
+                        'without selcius',
+                        style: TextStyle(
+                            fontWeight: FontWeight.w700, fontSize: 20),
+                      )),
+                ),
+                Transform.scale(
+                  scale: 1.5,
+                  child: TextButton(
+                      onPressed: () => AdditionalDialogs.showDioForFFi(context,
+                          _ffiBridge.getThreeDaysForecast(false).toStringTemp().toString()),
+                      child: Text(
+                        'with selcius',
+                        style: TextStyle(
+                            fontWeight: FontWeight.w700, fontSize: 20),
                       )),
                 ),
               ],
             )),
       ),
     );
+  }
+}
+
+mixin AdditionalDialogs {
+  static void showDioForFFi(BuildContext context, info) {
+    final Size size = MediaQuery.of(context).size;
+    showDialog<SimpleDialog>(
+        context: context,
+        builder: (context) => SimpleDialog(
+              backgroundColor: Colors.white,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              children: [
+                SizedBox(
+                  height: size.width * 0.5,
+                  child: Center(
+                    child: Text(
+                      info!.toString(),
+                      style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
+                    ),
+                  ),
+                )
+              ],
+            ));
   }
 }
