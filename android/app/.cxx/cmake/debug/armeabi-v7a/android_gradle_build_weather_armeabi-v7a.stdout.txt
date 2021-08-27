@@ -1,3 +1,2 @@
 ninja: Entering directory `C:\Users\Axmadjon\StudioProjects\native_try\android\app\.cxx\cmake\debug\armeabi-v7a'
-[1/2] Building C object CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/native_try/src/weather.c.o
-[2/2] Linking C shared library C:\Users\Axmadjon\StudioProjects\native_try\build\app\intermediates\cmake\debug\obj\armeabi-v7a\libweather.so
+ninja: no work to do.
