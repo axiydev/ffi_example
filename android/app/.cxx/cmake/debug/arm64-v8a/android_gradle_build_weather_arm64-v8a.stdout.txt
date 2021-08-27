@@ -1,2 +1,2 @@
 ninja: Entering directory `C:\Users\Axmadjon\StudioProjects\native_try\android\app\.cxx\cmake\debug\arm64-v8a'
-ninja: no work to do.
+[1/1] Linking C shared library C:\Users\Axmadjon\StudioProjects\native_try\build\app\intermediates\cmake\debug\obj\arm64-v8a\libweather.so
