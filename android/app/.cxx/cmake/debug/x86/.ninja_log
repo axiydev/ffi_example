@@ -1,14 +1,3 @@
 # ninja log v5
-1	62	651489604	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/native_try/src/weather.c.o	cede91c216a32bc0
-62	158	651489604	C:/Users/Axmadjon/StudioProjects/native_try/build/app/intermediates/cmake/debug/obj/x86/libweather.so	f003bcfa8e5a137e
-1	83	651489694	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/native_try/src/weather.c.o	cede91c216a32bc0
-83	200	651489694	C:/Users/Axmadjon/StudioProjects/native_try/build/app/intermediates/cmake/debug/obj/x86/libweather.so	f003bcfa8e5a137e
-2	100	651494474	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/native_try/src/weather.c.o	cede91c216a32bc0
-100	210	651494474	C:/Users/Axmadjon/StudioProjects/native_try/build/app/intermediates/cmake/debug/obj/x86/libweather.so	f003bcfa8e5a137e
-2	100	651494648	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/native_try/src/weather.c.o	cede91c216a32bc0
-101	190	651494648	C:/Users/Axmadjon/StudioProjects/native_try/build/app/intermediates/cmake/debug/obj/x86/libweather.so	f003bcfa8e5a137e
-4	103	651619169	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/native_try/src/weather.c.o	cede91c216a32bc0
-103	229	651619170	C:/Users/Axmadjon/StudioProjects/native_try/build/app/intermediates/cmake/debug/obj/x86/libweather.so	f003bcfa8e5a137e
-2	98	651795324	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/native_try/src/weather.c.o	cede91c216a32bc0
-98	192	651795324	C:/Users/Axmadjon/StudioProjects/native_try/build/app/intermediates/cmake/debug/obj/x86/libweather.so	f003bcfa8e5a137e
-3	118	651798118	C:/Users/Axmadjon/StudioProjects/native_try/build/app/intermediates/cmake/debug/obj/x86/libweather.so	f003bcfa8e5a137e
+1	79	653418071	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/new/ok/src/weather.c.o	8beec5498f54ca13
+80	127	653418071	C:/Users/Axmadjon/StudioProjects/new/ok/build/app/intermediates/cmake/debug/obj/x86/libweather.so	2435d6d7b6c17b9e

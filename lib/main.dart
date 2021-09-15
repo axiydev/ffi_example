@@ -47,7 +47,12 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                 Transform.scale(
                   scale: 1.5,
                   child: TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        AdditionalDialogs.showDioForFFi(
+                          context,
+                          _ffiBridge.getTemperature().toString(),
+                        );
+                      },
                       child: Text(
                         _ffiBridge.getTemperature().toString(),
                         style: TextStyle(
@@ -57,7 +62,12 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                 Transform.scale(
                   scale: 1.5,
                   child: TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        AdditionalDialogs.showDioForFFi(
+                          context,
+                          _ffiBridge.getTypeWeather().toString(),
+                        );
+                      },
                       child: Text(
                         _ffiBridge.getTypeWeather().toString(),
                         style: TextStyle(
@@ -67,21 +77,10 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                 Builder(
                   builder: (context) => TextButton(
                       onPressed: () {
-                        ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
-                            action: SnackBarAction(
-                              label: 'undo',
-                              onPressed: () {},
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.vertical(
-                                  top: Radius.circular(15)),
-                            ),
-                            backgroundColor: Colors.black,
-                            content: Text(
-                              _ffiBridge.getTemperature().toString(),
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w700, fontSize: 20),
-                            )));
+                        AdditionalDialogs.showDioForFFi(
+                          context,
+                          _ffiBridge.getTemperature().toString(),
+                        );
                       },
                       child: Text(
                         'get it',
@@ -92,21 +91,8 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                 Builder(
                   builder: (context) => TextButton(
                       onPressed: () {
-                        ScaffoldMessenger.of(context).showSnackBar(new SnackBar(
-                            action: SnackBarAction(
-                              label: 'undo',
-                              onPressed: () {},
-                            ),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.vertical(
-                                  top: Radius.circular(15)),
-                            ),
-                            backgroundColor: Colors.black,
-                            content: Text(
-                              _ffiBridge.getAddValue(12, 23).toString(),
-                              style: TextStyle(
-                                  fontWeight: FontWeight.w700, fontSize: 20),
-                            )));
+                        AdditionalDialogs.showDioForFFi(
+                            context, _ffiBridge.getAddValue(12, 23).toString());
                       },
                       child: Text(
                         '12+23',
@@ -120,7 +106,7 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                       onPressed: () => AdditionalDialogs.showDioForFFi(context,
                           _ffiBridge.getThreeDaysForecast(true).toStringTemp()),
                       child: Text(
-                        'without selcius',
+                        'without Celsius',
                         style: TextStyle(
                             fontWeight: FontWeight.w700, fontSize: 20),
                       )),
@@ -134,7 +120,7 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                               .getThreeDaysForecast(false)
                               .toStringTemp()),
                       child: Text(
-                        'with selcius',
+                        'with Celsius',
                         style: TextStyle(
                             fontWeight: FontWeight.w700, fontSize: 20),
                       )),
