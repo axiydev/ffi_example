@@ -1,3 +1,5 @@
 # ninja log v5
 1	116	653418071	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/new/ok/src/weather.c.o	78a5f4a51765dc55
 117	166	653418071	C:/Users/Axmadjon/StudioProjects/new/ok/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libweather.so	426cc21fa51967bb
+12	566	653839852	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/new/ok/src/weather.c.o	78a5f4a51765dc55
+566	1046	653839853	C:/Users/Axmadjon/StudioProjects/new/ok/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libweather.so	426cc21fa51967bb

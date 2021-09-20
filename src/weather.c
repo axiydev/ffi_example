@@ -47,3 +47,10 @@ struct ThreeDaysForecast get_three_days_forecast(bool use_weather) {
 int sum(int a, int b) {
     return a + b;
 }
+
+
+
+///cube of number
+int get_cube(int a){
+    return a*a*a;
+}
