@@ -1,2 +1,2 @@
 ninja: Entering directory `/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/x86_64'
-ninja: no work to do.
+[1/1] Linking C shared library /Users/axmadjonisaqov/StudioProjects/ffi_example/build/app/intermediates/cmake/debug/obj/x86_64/libweather.so

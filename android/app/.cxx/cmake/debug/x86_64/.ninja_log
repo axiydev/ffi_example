@@ -1,3 +1,4 @@
 # ninja log v5
 0	64	1644786199	CMakeFiles/weather.dir/Users/axmadjonisaqov/StudioProjects/ffi_example/src/weather.c.o	31ec4c2c1fc2ff4
 64	109	1644786199	/Users/axmadjonisaqov/StudioProjects/ffi_example/build/app/intermediates/cmake/debug/obj/x86_64/libweather.so	3b61976aa6640251
+0	61	1644841086	/Users/axmadjonisaqov/StudioProjects/ffi_example/build/app/intermediates/cmake/debug/obj/x86_64/libweather.so	3b61976aa6640251
