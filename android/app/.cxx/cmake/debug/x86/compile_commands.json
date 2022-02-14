@@ -1,7 +1,7 @@
 [
 {
-  "directory": "C:/Users/Axmadjon/StudioProjects/new/ok/android/app/.cxx/cmake/debug/x86",
-  "command": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=i686-none-linux-android19 --gcc-toolchain=C:/Users/Axmadjon/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Axmadjon/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dweather_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\weather.dir\\C_\\Users\\Axmadjon\\StudioProjects\\new\\ok\\src\\weather.c.o   -c C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\src\\weather.c",
-  "file": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\src\\weather.c"
+  "directory": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/x86",
+  "command": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=i686-none-linux-android21 --gcc-toolchain=/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dweather_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/weather.dir/Users/axmadjonisaqov/StudioProjects/ffi_example/src/weather.c.o   -c /Users/axmadjonisaqov/StudioProjects/ffi_example/src/weather.c",
+  "file": "/Users/axmadjonisaqov/StudioProjects/ffi_example/src/weather.c"
 }
 ]

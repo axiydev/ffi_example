@@ -1,2 +1,2 @@
-ninja: Entering directory `C:\Users\Axmadjon\StudioProjects\new\ok\android\app\.cxx\cmake\debug\arm64-v8a'
+ninja: Entering directory `/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/arm64-v8a'
 ninja: no work to do.

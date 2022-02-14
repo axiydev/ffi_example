@@ -1,13 +1,13 @@
 {
   "abi": "ARM64_V8A",
-  "abiPlatformVersion": 19,
+  "abiPlatformVersion": 21,
   "buildSettings": {
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\arm64-v8a",
-    "cmakeServerLogFile": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\arm64-v8a\\cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cxx\\debug\\arm64-v8a",
+    "cmakeArtifactsBaseFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/arm64-v8a",
+    "cmakeServerLogFile": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cxx/debug/arm64-v8a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,13 +15,13 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\arm64-v8a",
-      "cmakeToolchain": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-      "cmakeExecutable": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "buildRoot": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/arm64-v8a",
+      "cmakeToolchain": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cmakeExecutable": "/Users/axmadjonisaqov/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
         {
           "name": "CMAKE_FIND_ROOT_PATH",
-          "value": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\prefab\\arm64-v8a\\prefab"
+          "value": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab"
         },
         {
           "name": "CMAKE_BUILD_TYPE",
@@ -29,7 +29,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake"
+          "value": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -37,11 +37,11 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462"
+          "value": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462"
         },
         {
           "name": "ANDROID_PLATFORM",
-          "value": "android-19"
+          "value": "android-21"
         },
         {
           "name": "CMAKE_ANDROID_ARCH_ABI",
@@ -49,7 +49,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462"
+          "value": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -57,11 +57,11 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\build\\app\\intermediates\\cmake\\debug\\obj\\arm64-v8a"
+          "value": "/Users/axmadjonisaqov/StudioProjects/ffi_example/build/app/intermediates/cmake/debug/obj/arm64-v8a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
-          "value": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+          "value": "/Users/axmadjonisaqov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
         },
         {
           "name": "CMAKE_SYSTEM_NAME",
@@ -69,19 +69,19 @@
         },
         {
           "name": "CMAKE_SYSTEM_VERSION",
-          "value": "19"
+          "value": "21"
         }
       ]
     }
   },
-  "cxxBuildFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+  "cxxBuildFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/arm64-v8a",
   "info": {
     "abi": "ARM64_V8A",
     "bitness": 64,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+  "originalCxxBuildFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/arm64-v8a",
   "variant": {
     "buildSystemArgumentList": [],
     "buildTargetSet": [],
@@ -93,24 +93,24 @@
     "module": {
       "buildSystem": "CMAKE",
       "cmake": {
-        "cmakeExe": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "cmakeExe": "/Users/axmadjonisaqov/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
         "minimumCmakeVersion": "3.10.2",
-        "ninjaExe": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        "ninjaExe": "/Users/axmadjonisaqov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
       },
-      "cmakeToolchainFile": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-      "cxxFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx",
+      "cmakeToolchainFile": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx",
       "gradleModulePathName": ":app",
-      "intermediatesFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\build\\app\\intermediates",
-      "makeFile": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\CMakeLists.txt",
-      "moduleBuildFile": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\build.gradle",
-      "moduleRootFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app",
+      "intermediatesFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/build/app/intermediates",
+      "makeFile": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/CMakeLists.txt",
+      "moduleBuildFile": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/build.gradle",
+      "moduleRootFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "ndkFolder": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462",
+      "ndkFolder": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462",
       "ndkMetaAbiList": [
         {
           "abi": "ARMEABI_V7A",
@@ -167,29 +167,29 @@
       "ndkDefaultStl": "LIBCXX_STATIC",
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\.cxx",
-        "cxxFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\.cxx",
+        "compilerSettingsCacheFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/.cxx",
+        "cxxFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android",
-        "sdkFolder": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk",
+        "rootBuildGradleFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android",
+        "sdkFolder": "/Users/axmadjonisaqov/Library/Android/sdk",
         "isPrefabEnabled": false
       },
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
         "LIBCXX_SHARED": {
-          "ARMEABI_V7A": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
-          "ARM64_V8A": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
-          "X86": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
-          "X86_64": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+          "ARMEABI_V7A": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
         "SYSTEM": {}
       }
     },
-    "objFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\build\\app\\intermediates\\cmake\\debug\\obj",
+    "objFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/build/app/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
@@ -197,8 +197,8 @@
       "X86",
       "X86_64"
     ],
-    "prefabDirectory": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\prefab",
+    "prefabDirectory": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/prefab",
     "prefabPackageDirectoryList": []
   },
-  "prefabFolder": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\prefab\\arm64-v8a"
+  "prefabFolder": "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/prefab/arm64-v8a"
 }

@@ -1,20 +1,20 @@
-                Executable : C:\Users\Axmadjon\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\cmake.exe
+                Executable : /Users/axmadjonisaqov/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--HC:\Users\Axmadjon\StudioProjects\new\ok\android\app
--DCMAKE_FIND_ROOT_PATH=C:\Users\Axmadjon\StudioProjects\new\ok\android\app\.cxx\cmake\debug\prefab\x86\prefab
+-H/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app
+-DCMAKE_FIND_ROOT_PATH=/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/prefab/x86/prefab
 -DCMAKE_BUILD_TYPE=Debug
--DCMAKE_TOOLCHAIN_FILE=C:\Users\Axmadjon\AppData\Local\Android\sdk\ndk\21.1.6352462\build\cmake\android.toolchain.cmake
+-DCMAKE_TOOLCHAIN_FILE=/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
 -DANDROID_ABI=x86
--DANDROID_NDK=C:\Users\Axmadjon\AppData\Local\Android\sdk\ndk\21.1.6352462
--DANDROID_PLATFORM=android-19
+-DANDROID_NDK=/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462
+-DANDROID_PLATFORM=android-21
 -DCMAKE_ANDROID_ARCH_ABI=x86
--DCMAKE_ANDROID_NDK=C:\Users\Axmadjon\AppData\Local\Android\sdk\ndk\21.1.6352462
+-DCMAKE_ANDROID_NDK=/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\Axmadjon\StudioProjects\new\ok\build\app\intermediates\cmake\debug\obj\x86
--DCMAKE_MAKE_PROGRAM=C:\Users\Axmadjon\AppData\Local\Android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/axmadjonisaqov/StudioProjects/ffi_example/build/app/intermediates/cmake/debug/obj/x86
+-DCMAKE_MAKE_PROGRAM=/Users/axmadjonisaqov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 -DCMAKE_SYSTEM_NAME=Android
--DCMAKE_SYSTEM_VERSION=19
--BC:\Users\Axmadjon\StudioProjects\new\ok\android\app\.cxx\cmake\debug\x86
+-DCMAKE_SYSTEM_VERSION=21
+-B/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/x86
 -GNinja
 jvmArgs : 
 

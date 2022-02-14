@@ -1,19 +1,19 @@
 {
   "buildFiles": [
-    "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\CMakeLists.txt",
-    "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-    "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+    "/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/CMakeLists.txt",
+    "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/axmadjonisaqov/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
   ],
   "cleanCommands": [
-    "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+    "/Users/axmadjonisaqov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/armeabi-v7a\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "/Users/axmadjonisaqov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "weather-Debug-armeabi-v7a": {
       "artifactName": "weather",
-      "buildCommand": "C:\\Users\\Axmadjon\\AppData\\Local\\Android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\android\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" weather",
+      "buildCommand": "/Users/axmadjonisaqov/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/axmadjonisaqov/StudioProjects/ffi_example/android/app/.cxx/cmake/debug/armeabi-v7a\" weather",
       "abi": "armeabi-v7a",
-      "output": "C:\\Users\\Axmadjon\\StudioProjects\\new\\ok\\build\\app\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libweather.so",
+      "output": "/Users/axmadjonisaqov/StudioProjects/ffi_example/build/app/intermediates/cmake/debug/obj/armeabi-v7a/libweather.so",
       "runtimeFiles": []
     }
   }

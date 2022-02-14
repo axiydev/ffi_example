@@ -1,5 +1,3 @@
 # ninja log v5
-1	71	653418071	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/new/ok/src/weather.c.o	dd94575fddb5ec8a
-71	119	653418071	C:/Users/Axmadjon/StudioProjects/new/ok/build/app/intermediates/cmake/debug/obj/arm64-v8a/libweather.so	79f92354f74ed60c
-2	86	653839853	CMakeFiles/weather.dir/C_/Users/Axmadjon/StudioProjects/new/ok/src/weather.c.o	dd94575fddb5ec8a
-87	154	653839853	C:/Users/Axmadjon/StudioProjects/new/ok/build/app/intermediates/cmake/debug/obj/arm64-v8a/libweather.so	79f92354f74ed60c
+0	65	1644786199	CMakeFiles/weather.dir/Users/axmadjonisaqov/StudioProjects/ffi_example/src/weather.c.o	8d246f4a833084ca
+66	109	1644786199	/Users/axmadjonisaqov/StudioProjects/ffi_example/build/app/intermediates/cmake/debug/obj/arm64-v8a/libweather.so	ac5a9b5fde43e6ac
