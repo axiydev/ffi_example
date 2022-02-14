@@ -56,8 +56,10 @@ class _HomePageState extends State<HomePage> with AdditionalDialogs {
                     child: TextField(
                       controller: this.controller,
                       cursorColor: Colors.white,
+                      keyboardType: TextInputType.number,
                       style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
+                        contentPadding: EdgeInsets.only(left: 15),
                         hintText: 'input number',
                         border: InputBorder.none,
                         hintStyle: TextStyle(color: Colors.white),
